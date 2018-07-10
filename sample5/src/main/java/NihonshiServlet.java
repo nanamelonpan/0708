@@ -46,6 +46,7 @@ public class NihonshiServlet extends HttpServlet {
 		String answer9 = req.getParameter("answer9");
 		req.setAttribute("answer9", answer9);
 
+
 	RequestDispatcher dispatcher = req.getRequestDispatcher("/WEB-INF/jsp/nihonshi1.jsp");
 	   dispatcher.forward(req, res);
 
