@@ -16,7 +16,6 @@ String [] answer1 =new String[10];
      %>
 <%
 
-
 	 quiz1 [0]="大化の改新" ;
 	 answer1[0]="645";
 	 quiz1 [1]="平安京に遷都" ;
