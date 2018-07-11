@@ -5,9 +5,12 @@
 <html>
 <head>
 <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
-<title>Insert title here</title>
+<title>Answer of Japanese History</title>
+<style type="text/css">
+ span {color:red;}
+ </style>
 </head>
-<body>
+<body bgcolor="#FFDDFF">
 <h1>日本史の問題</h1>
 <%!
 int i=0;
@@ -49,7 +52,7 @@ if(request.getAttribute( "answer" ).equals(answer1[0])){i++;
 <%
 }else{
 %>
-<h2>不正解です</h2>
+<h2><span>不正解です</span></h2>
 
 <%
 }%>
@@ -62,7 +65,7 @@ if(request.getAttribute( "answer1" ).equals(answer1[1])){i++;
 <%
 }else{
 %>
-<h2>不正解です</h2>
+<h2><span>不正解です</span></h2>
 
 <%
 }%>
@@ -74,7 +77,7 @@ if(request.getAttribute( "answer2" ).equals(answer1[2])){i++;
 <%
 }else{
 %>
-<h2>不正解です</h2>
+<h2><span>不正解です</span></h2>
 
 <%
 }%>
@@ -86,7 +89,7 @@ if(request.getAttribute( "answer3" ).equals(answer1[3])){i++;
 <%
 }else{
 %>
-<h2>不正解です</h2>
+<h2><span>不正解です</span></h2>
 
 <%
 }%>
@@ -98,7 +101,7 @@ if(request.getAttribute( "answer4" ).equals(answer1[4])){i++;
 <%
 }else{
 %>
-<h2>不正解です</h2>
+<h2><span>不正解です</span></h2>
 
 <%
 }%>
@@ -110,7 +113,7 @@ if(request.getAttribute( "answer5" ).equals(answer1[5])){i++;
 <%
 }else{
 %>
-<h2>不正解です</h2>
+<h2><span>不正解です</span></h2>
 
 <%
 }%>
@@ -122,7 +125,7 @@ if(request.getAttribute( "answer6" ).equals(answer1[6])){i++;
 <%
 }else{
 %>
-<h2>不正解です</h2>
+<h2><span>不正解です</span></h2>
 
 <%
 }%>
@@ -134,7 +137,7 @@ if(request.getAttribute( "answer7" ).equals(answer1[7])){i++;
 <%
 }else{
 %>
-<h2>不正解です</h2>
+<h2><span>不正解です</span></h2>
 
 <%
 }%>
@@ -146,7 +149,7 @@ if(request.getAttribute( "answer8" ).equals(answer1[8])){i++;
 <%
 }else{
 %>
-<h2>不正解です</h2>
+<h2><span>不正解です</span></h2>
 
 <%
 }%>
@@ -158,12 +161,13 @@ if(request.getAttribute( "answer9" ).equals(answer1[9])){i++;
 <%
 }else{
 %>
-<h2>不正解です</h2>
+<h2><span>不正解です</span></h2>
 
 <%
 }%>
 
 10問中<%=i %>問正解しました。
+<a href='index.html'>トップへ</a>
 </form>
 
 </body>

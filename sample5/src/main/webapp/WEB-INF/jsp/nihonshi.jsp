@@ -5,9 +5,9 @@
 <html>
 <head>
 <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
-<title>Insert title here</title>
+<title>Japanese History</title>
 </head>
-<body>
+<body bgcolor="#FFCCFF">
 <h1>日本史の問題</h1>
 <%!
 int result=0;

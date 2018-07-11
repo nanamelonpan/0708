@@ -5,12 +5,12 @@
 <html>
 <head>
 <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
-<title>Insert title here</title>
+<title>Answer of English</title>
 <style type="text/css">
  span {color:red;}
  </style>
 </head>
-<body>
+<body bgcolor="#FFFF99">
 <h1>英語の問題</h1>
 丸付けをします。。。
 

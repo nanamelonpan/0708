@@ -4,12 +4,12 @@
 <html>
 <head>
 <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
-<title>Insert title here</title>
+<title>Biology</title>
 <style type="text/css">
  span {color:red;}
  </style>
 </head>
-<body>
+<body bgcolor="#78FF94">
 <h1>生物の問題</h1>
 
 <%!
